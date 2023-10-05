@@ -23,9 +23,9 @@ require 'vendor/autoload.php';
     $mail->SMTPAutoTLS = false;
     $mail->SMTPAuth = false;
     
-    $mail->Username = 'confirm@fee-tathune.fr';
-    $mail->Password = 'Etoile0710';
-    $mail->setFrom('confirm@river-ride.fr', 'Christophe');
+    $mail->Username = 'test@river.fr';
+    $mail->Password = 'Admin';
+    $mail->setFrom('test@river.fr', 'Christophe');
     $mail->addAddress($email);
     $mail->Subject = 'Verification du mail';
     $verification_code = substr(number_format(time() * rand(), 0, '', ''), 0, 6);

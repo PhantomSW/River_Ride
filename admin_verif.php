@@ -13,14 +13,14 @@ if(empty($_POST['admin']) || empty($_POST['pwd'])){
 		exit();
 }
 
-if($_POST['admin'] == 'Toi&Moi' && $_POST['pwd'] == 'Etoile0710'){
+if($_POST['admin'] == 'Admin' && $_POST['pwd'] == 'Admin'){
 	writeLogLine(true, $_POST['admin']);
 	session_start();
 	$_SESSION['admin'] = $_POST['admin'];
 	header('location: admin_utilisateurs.php');
 	exit();
 } else {
-	if ($_POST['admin'] == 'azerty' && $_POST['pwd'] != 'azerty') {
+	if ($_POST['admin'] == 'Admin' && $_POST['pwd'] != 'Admin') {
 		$msg = 'Mot de passe incorrect.';
 		header('location: admin_connexion.php?type=danger&message=' . $msg);
 		exit();
