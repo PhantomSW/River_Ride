@@ -46,13 +46,13 @@ Il est nécessaire de respecter les règles suivantes :
 
 ==================================================================
 
-Applications used :
+Tools used :
 
-MAMP
-Editeur WEB (type Sublime Text, Atom, Visual Studio Code)
-Editeur de mockups (Balsamiq, Figma)
-Bootstrap 5.3
-MySQLWorkBench pour le MLD, Mocodo pour le MCD
-FileZilla (ftp)
-Google Drive pour partage de fichiers
-Vidéo (Check Screen Recording Windows - panel droite, OBS)
+- MAMP
+- Visual Studio Code
+- Figma
+- Bootstrap 5.3
+- MySQLWorkBench pour le MLD, Mocodo pour le MCD
+- FileZilla (ftp)
+- VPS OVH
+- Google Drive
