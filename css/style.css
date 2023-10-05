@@ -1,0 +1,351 @@
+/* ----------------- */
+/*      Balises      */
+/* ----------------- */
+
+/* individual */
+
+html {
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Raleway";
+  margin: 0;
+  padding-top: 90px;
+  background-color: rgb(240, 232, 232);
+  color: black;
+}
+
+header {
+  background-color: #9fe4d7;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  padding: 15px;
+}
+
+main {
+  padding-top: 55px;
+  
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  margin-top: 2rem;
+  border: 1px solid #999999;
+  padding: 2rem;
+  /* background-color: #ffffff; */
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+      input[type="submit"] {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #666666;
+      }
+
+footer {
+  margin: 0;
+  background-color: "black";
+  color: white;
+}
+
+/* multiple */
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 85px;
+  padding: 10px;
+  display: block;
+  transition: color 0.5s linear;
+}
+
+header nav a:hover {
+  color: black;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+header nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+/**/
+main > h1 {
+  font-size: 3rem;
+}
+
+section > h1 {
+  font-size: 2rem;
+}
+
+main h1, main h2 {
+  color : green;
+}
+
+footer > div {
+  justify-content: center;
+  background-color: #9fe4d7;
+}
+
+/* button */
+header button{
+  background-color: #9fe4d7;
+  color :rgb(240, 232, 232);
+  border-color: rgb(240, 232, 232);
+  border-radius: 10px;
+}
+
+main button{
+  background-color: rgb(240, 232, 232);
+}
+
+header button :hover{  
+color: #c4a112;
+transition: color 0.5s linear;
+}
+
+footer div div {
+  padding: 20px;
+}
+
+/* ----------------- */
+/*      Classes      */
+/* ----------------- */
+
+.connect {
+text-align: center;
+}
+
+.flexbox {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.flexbox figure {
+  flex-basis: 35%;
+  margin: 0;
+  text-align: center;
+}
+
+.flexbox figure img {
+  width: 75%;
+}
+
+.flexbox p {
+  flex-basis: 65%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.banner {
+  height: 300px;
+  width: 150%;
+  background-image: url("../images/banniereloire.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.light-mode {
+  background-color: rgb(240, 232, 232);
+  color: rgb(32, 32, 32);
+}
+
+.dark-mode {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+.space {
+  padding-left: 200px;
+}
+
+.infos {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #999999;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.guide {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #666666;
+}
+
+.packs {
+  color:black;
+  text-decoration:none;
+}
+.packs:hover {
+  color:green;
+  text-decoration:none;
+  
+}
+/* ----------------- */
+/*        IDs        */
+/* ----------------- */
+
+#button1{
+  width: 350px;
+  border:5px;
+}
+
+#button2{
+  width: 350px;
+  border:5px;
+}
+
+#continue{
+  width: 350px;
+  border: 5px;
+}
+
+/* ----------------- */
+/*       Admin       */
+/* ----------------- */
+
+
+.sidenav {
+  position: fixed;
+  top: 103px;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background-color: rgb(32, 32, 32);
+  border-right: 3px solid #ddd;
+  text-align: center;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  display: block;
+  margin: 10px 0;
+  padding: 8px 0;
+  color: rgb(240, 232, 232);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  background-color: #9fe4d7;
+  color: rgb(32, 32, 32);
+}
+
+.closebtn {
+  position: absolute;
+  cursor: pointer;
+  top: 10;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.admin_main {
+  margin-left: 100 px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/* ----------------- */
+/*      Mobile      */
+/* ----------------- */
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+  header nav {
+    display: none;
+  }
+  .table-container {
+    overflow: auto;
+  }
+}
+
+/* ----------------- */
+/*      Polices      */
+/* ----------------- */
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.woff2") format("woff2"),
+    url("../fonts/Raleway-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Raleway-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Italic.woff2") format("woff2"),
+    url("../fonts/Raleway-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Bold.woff2") format("woff2"),
+    url("../fonts/Raleway-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+form h3 {
+  /* color:#9fe4d7; */
+  color: green;
+}
