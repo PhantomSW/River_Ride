@@ -5,6 +5,10 @@ Here is my second big website project based on the first one.
 
 ======================================================
 
+[ Les informations pour la base de donnée et les identifiants ont été modifié de l'original ]
+
+======================================================
+
 Consignes :
 
 Construire un site web dynamique permettant de gérer des offres de vacances en kayak sur la Loire. Le site devra permettre de composer son itinéraire et choisir ses points d'arrêt tout au long du fleuve et permettre également de réserver des hébergements pour la nuit.
